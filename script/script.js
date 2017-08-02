@@ -103,7 +103,7 @@ var clearResults = function() {
  };
 
 var getTitles = function(text) {
-  var url = 'http://en.wikipedia.org/w/api.php';
+  var url = 'https://en.wikipedia.org/w/api.php';
   var props = {
     dataType: "jsonp",
     data: {
