@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Wikipedia Viewer</title>
+    <meta charset="utf-8"/>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" 
+    crossorigin="anonymous">
+    <!--FontAwesome-->
+    <script src="https://use.fontawesome.com/e1f7b04815.js"></script>
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <!--JavaScript-->
+    <script src="script/script.js"></script>        
+  </head>
+  
+  <body>
+    <div class="header">
+      wiki
+    </div>
+    <div class="center-box">
+      <i class="fa fa-times fa-5x" aria-hidden="true"></i>
+      <i class="fa fa-search fa-5x expand" aria-hidden="true"></i>
+      <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><i class="fa fa-random fa-5x" aria-hidden="true"></i></a>
+      <form class="search-box">
+        <input type="text" id="str" placeholder="..."></input>
+      </form>
+    </div>
+    <div class="results-box">
+    </div>
+  </body>
+</html>

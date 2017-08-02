@@ -1,0 +1,168 @@
+@import 'https://fonts.googleapis.com/css?family=Nixie+One';
+
+body {
+  background-color: #183152;
+}
+
+.header {
+  height: 100px;
+  width: 60%;
+  margin: auto;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding-top: 10px;
+  font-size: 80px;
+  text-align: center;
+  color: #E1E6FA;
+  font-family: 'Nixie One', cursive;
+}
+
+.center-box {
+  height: 100px;
+  width: 60%;
+  margin: auto;
+  position: absolute;
+  top: 100px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+
+@media (max-width: 480px) {
+  .center-box {
+    width: 100%;
+  }
+}
+
+.fa-search {
+  color: #E1E6FA; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.fa-random {
+  display: none;
+  color: #E1E6FA; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -46%);
+}
+.fa-times {
+  display: none;
+  color: #E1E6FA; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -53%);
+}
+
+.search-box {
+  display: none;
+}
+
+#str {
+  border: 2px solid #E1E6FA;
+  background-color: #183152;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 60px;
+  transform: translate(-75%, -50%);
+  color: #E1E6FA;
+  font-family: 'Nixie One', cursive;
+  font-size: 30px;
+}
+
+@media (max-width: 1024px) {
+  .fa-5x {
+    font-size: 40px;
+  }  
+  #str {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+@media (max-width: 640px) {
+  .fa-5x {
+    font-size: 30px;
+  }  
+  #str {
+    height: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+@media (max-width: 320px) {
+  .fa-5x {
+    font-size: 25px;
+  }  
+  #str {
+    height: 30px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+}
+
+.results-box {
+  display: none;
+  margin: auto;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 60%;
+  transform: translate(0, 90%);
+}
+
+@media (max-width: 640px) {
+  .results-box {
+    width: 90%;
+  }
+}
+
+.result {
+  border-top: solid 6px rgba(225,230,250,0.4);
+  background-color: rgba(0,0,0,0.1);
+  padding: 0px 15px 10px 15px;
+  margin-bottom: 20px;
+}
+
+.results-box h2 {
+  font-family: 'Nixie One', cursive;
+  color: #E1E6FA;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.results-box p {
+  font-family: 'Nixie One', cursive;
+  color: #E1E6FA;
+  font-size: 18px;
+}
+
+@media (max-width: 480px) {
+  .result {
+    padding: 0px 10px 5px 10px;
+    margin-bottom: 10px;
+  }
+  
+  .results-box h2 {
+    font-size: 18px;
+  }
+  
+  .results-box p {
+    font-size: 14px
+  }
+  
+}
