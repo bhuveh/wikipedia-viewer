@@ -41,9 +41,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 .fa-random {
   display: none;
@@ -51,9 +49,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -46%);
-      -ms-transform: translate(-50%, -46%);
-          transform: translate(-50%, -46%);
+  transform: translate(-50%, -46%);
 }
 .fa-times {
   display: none;
@@ -61,9 +57,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -53%);
-      -ms-transform: translate(-50%, -53%);
-          transform: translate(-50%, -53%);
+  transform: translate(-50%, -53%);
 }
 
 .search-box {
@@ -80,9 +74,7 @@ body {
   top: 50%;
   left: 50%;
   height: 60px;
-  -webkit-transform: translate(-75%, -50%);
-      -ms-transform: translate(-75%, -50%);
-          transform: translate(-75%, -50%);
+  transform: translate(-75%, -50%);
   color: #E1E6FA;
   font-family: 'Nixie One', cursive;
   font-size: 30px;
@@ -130,9 +122,7 @@ body {
   top: 0px;
   bottom: 0px;
   width: 60%;
-  -webkit-transform: translate(0, 90%);
-      -ms-transform: translate(0, 90%);
-          transform: translate(0, 90%);
+  transform: translate(0, 90%);
 }
 
 @media (max-width: 640px) {
